@@ -1,0 +1,87 @@
+{
+    "SettingsVersion": 1.2,
+    "SimMode": "Car",
+    "ClockSpeed": 1.0,
+"ApiServerPort": 41451,
+"ViewMode":"NoDisplay",
+
+
+"EnableBoundary": "no",
+"EnableMaterials":"no",
+"EnableOutsideTrees":"no",
+"EnableInsideTrees":"no",
+"EnableHumans": "no",
+
+
+
+"PawnPaths" : {
+"CustomPawnBlue_SUV1": {"PawnBP": "Class'/AirSim/VehicleAdv/SUV/SuvCarPawn.SuvCarPawn_C'"}
+},
+
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 120,
+        "Height": 120
+      }
+    ]
+},
+
+   "Vehicles": {
+      "Car0": {
+          "VehicleType": "PhysXCar",
+          "PawnPath": "CustomPawnBlue_SUV1",
+          "Cameras": {
+        "0": {
+          "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width":  240,
+        "Height": 240,
+        "FOV_Degrees": 100,
+        "AutoExposureSpeed": 100,
+        "AutoExposureBias": 0,
+        "AutoExposureMaxBrightness": 0.64,
+        "AutoExposureMinBrightness": 0.03,
+        "MotionBlurAmount": 0,
+        "TargetGamma": 1.0,
+        "ProjectionMode": "",
+        "OrthoWidth": 5.12
+      }
+    ],
+          "X": 0, "Y": 0, "Z": -8
+        },
+
+"1": {
+          "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 720,
+        "Height": 720,
+        "FOV_Degrees": 50,
+        "AutoExposureSpeed": 100,
+        "AutoExposureBias": 0,
+        "AutoExposureMaxBrightness": 0.64,
+        "AutoExposureMinBrightness": 0.03,
+        "MotionBlurAmount": 0,
+        "TargetGamma": 1.0,
+        "ProjectionMode": "",
+        "OrthoWidth": 5.12
+      }
+    ],
+          "X": 7, "Y": -50, "Z": -40
+        }
+      },
+
+          "X": -21.5, "Y": 50, "Z": 0
+        },
+
+   "Car1": {
+          "VehicleType": "PhysXCar",
+           "PawnPath": "CustomPawnBlue_SUV1",
+           "X": 0, "Y": 0, "Z": 0
+           }
+  }
+
+}
