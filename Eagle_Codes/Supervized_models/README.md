@@ -16,7 +16,7 @@ We used the Kalman implementation from *Sort.py*, which is taken from open-sourc
 *Sort2.py* is the tuned Kalman filter. We tune the Kalman filter using [Mango](https://github.com/ARM-software/mango) by using the previously tuned controller to find the optimal Kalman parameters that achieve the highest reward [(*center_x*)X(*center_y*)X(object_size)X(num_of_steps)].
 
 ## Training supervised models
-The model training code is available in *Train_Supervized_model* files. The training [dataset](https://drive.google.com/drive/folders/1Lxh0QjHha4cKoYzTyZ6ioQgoTzrCQfle?usp=sharing) to train the models is available. There are six different training files using [50k, 100k, 150k] images to train on either 120 by 120 or 240 by 240 images.
+The model training code is available in *Train_Supervized_model* files. The training [dataset](https://drive.google.com/drive/folders/1U7q2W5vzO7fUKkN39a21M6DjaZNJgAq1?usp=sharing) to train the models is available. There are six different training files using [50k, 100k, 150k] images to train on either 120 by 120 or 240 by 240 images.
 
 ```
 python Train_Supervized_model_50k_120.py
